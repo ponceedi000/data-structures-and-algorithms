@@ -67,8 +67,8 @@ For example, if the input is 'Welcome', the output will be:
 const howMuchPencil = (str) => {
   let result = [];
   result.push(str);
-  str.split('').reduce((currentLetters) => {
-    let newString = currentLetters.substring(1);
+  str.split('').reduce((tempLetters) => {
+    let newString = tempLetters.substring(1);
     result.push(newString);
     return newString;
   }, str);
@@ -131,7 +131,13 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.ingredients.forEach(item => {
+    let spaced = item.indexOf(' ');
+    item = item.slice(spaced + 1);
+    spaced = item.indexOf(' ');
+    item = item.slice(spaced + 1);
+    result.push(item)
+  });
   return result;
 };
 
@@ -289,7 +295,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should return a list of foods', () => {
     expect(listFoods(gruffaloCrumble)).toStrictEqual(['Gruffalo', 'oats', 'brown sugar', 'flour', 'pure maple syrup', 'chopped nuts', 'baking soda', 'baking powder', 'cinnamon', 'melted butter', 'fresh water']);
     expect(listFoods(gruffaloCrumble).length).toStrictEqual(11);
