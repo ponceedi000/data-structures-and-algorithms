@@ -5,6 +5,7 @@
 ### Table Of Contents
 1. [Code Challenge 1](whiteboard/README.md)
 2. [Code Challenge 2](code_challenges/array-insert-shift/README.md)
+3. [Code Challenge 3](code_challenges/array-binary-search/README.md)
 
 ### Folder and Challenge Setup
 
