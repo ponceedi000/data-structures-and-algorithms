@@ -3,7 +3,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 NOTE: The search algorithm used in your function should be a binary search.
 
 ## Whiteboard Process
-![White Board](/code_challenges/array-binary-search/img/Code%20Challenge%2003.jpg)
+![White Board](/python/code_challenges/array-binary-search/img/Code%20Challenge%2003.jpg)
 
 ## Approach & Efficiency
 
