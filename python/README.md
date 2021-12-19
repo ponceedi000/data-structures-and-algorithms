@@ -6,6 +6,7 @@
 1. [Code Challenge 1](whiteboard/README.md)
 2. [Code Challenge 2](code_challenges/array-insert-shift/README.md)
 3. [Code Challenge 3](code_challenges/array-binary-search/README.md)
+4. [Code Challenge 5](code_challenges/linked_list/README.md)
 
 ### Folder and Challenge Setup
 
