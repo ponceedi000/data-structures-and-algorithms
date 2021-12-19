@@ -46,3 +46,8 @@
 - Ended at: aprox. 7pm
 - Initial time expected to complete: 3 hours
 - final time to complete: approx. 4 hours
+
+## Credits and Colaborations
+- Alex Payne, and Brandon Mizutani
+- [tutorialspoint.com | LinkedLists docs](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
+- [w3 Schools | .format()](https://www.w3schools.com/python/ref_string_format.asp)
