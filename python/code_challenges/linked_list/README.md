@@ -1,7 +1,7 @@
 # Singly Linked List
 - > "A linked list is created by using the node class we studied in the last chapter. We create a Node object and create another class to use this ode object. We pass the appropriate values through the node object to point the to the next data elements." [tutorialspoint.com](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
 
-- PR:
+- PR: [https://github.com/ponceedi000/data-structures-and-algorithms/pull/20](https://github.com/ponceedi000/data-structures-and-algorithms/pull/20)
 
 ## Challenge
 
