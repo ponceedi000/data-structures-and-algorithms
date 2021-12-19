@@ -24,9 +24,14 @@ def test_includes_node_value():
     ll.insert("four")
     ll.insert("five")
     ll.insert("six")
-
     assert ll.includes("six") == True
 
-    node = Node(1, None)
-    ll = LinkedList(node)
-    assert ll.head == node
+def test_does_not_includes_node_value():
+    ll = LinkedList()
+    ll.insert("one")
+    ll.insert("two")
+    ll.insert("three")
+    ll.insert("four")
+    ll.insert("five")
+    ll.insert("six")
+    assert ll.includes("seven") == False

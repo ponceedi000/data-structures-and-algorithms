@@ -20,3 +20,12 @@ class LinkedList:
                 return True
             current = current.next
         return False
+
+    # def to_string(self, value):
+    #     current = self.head
+    #     while current:
+    #         if current.value == value:
+    #             return True
+    #         current = current.next
+    #     else:
+    #         return False
