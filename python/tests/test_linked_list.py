@@ -35,3 +35,15 @@ def test_does_not_includes_node_value():
     ll.insert("five")
     ll.insert("six")
     assert ll.includes("seven") == False
+
+def test_insert_to_string():
+    test_out_insert_to_string = LinkedList()
+    test_out_insert_to_string.insert('a')
+    test_out_insert_to_string.insert('b')
+    test_out_insert_to_string.insert('c')
+    actual = test_out_insert_to_string.head.value
+    expected = 'c'
+    assert actual == expected
+    actual = test_out_insert_to_string.to_string()
+    expected = '{ c } -> { b } -> { a } -> NONE'
+    assert actual == expected

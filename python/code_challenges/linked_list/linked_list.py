@@ -21,11 +21,17 @@ class LinkedList:
             current = current.next
         return False
 
-    # def to_string(self, value):
-    #     current = self.head
-    #     while current:
-    #         if current.value == value:
-    #             return True
-    #         current = current.next
-    #     else:
-    #         return False
+    def to_string(self):
+        current = self.head
+        ll_output = ""
+        if current == None:
+            ll_output = '{NONE}'
+        else:
+            # struggled with formating our values into the required output. Colloborated with Brandon Mizutani to solve this problem
+            # Looked up .format documents from w3 schools
+            ll_output += '{}{}{}'.format("{ ", current.value, " }")
+            while current.next:
+                ll_output += ' -> {}{}{}'.format('{ ', current.next.value, ' }')
+                current = current.next
+            ll_output += f' -> NONE'
+            return ll_output
