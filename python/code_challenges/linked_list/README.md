@@ -1,7 +1,7 @@
 # Singly Linked List
 - > "A linked list is created by using the node class we studied in the last chapter. We create a Node object and create another class to use this ode object. We pass the appropriate values through the node object to point the to the next data elements." [tutorialspoint.com](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
 
-- PR: 
+- PR:
 
 ## Challenge
 
@@ -27,6 +27,15 @@
   * `"{ a } -> { b } -> { c } -> NULL"`
 - Any exceptions or errors that come from your code should be semantic, capture-able errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, semantic error that describes what went wrong in calling the methods you wrote for this lab.
 
+### Solar System Exploration, 1950s – 1960s
+
+- [x] Can successfully instantiate an empty linked list
+- [x] Can properly insert into the linked list
+- [x] The head property will properly point to the first node in the linked list
+- [x] Can properly insert multiple nodes into the linked list
+- [x] Will return true when finding a value within the linked list that exists
+- [x] Will return false when searching for a value in the linked list that does not exist
+- [x] Can properly return a collection of all the values that exist in the linked list
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
