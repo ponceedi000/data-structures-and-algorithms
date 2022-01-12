@@ -19,11 +19,6 @@ class Stack():
                 return Exception
 
     def peek(self):
-        # if self.top.value == None:
-        #     return Exception
-        # else:
-        #     return self.top.value
-
         try:
             return self.top.value
         except:

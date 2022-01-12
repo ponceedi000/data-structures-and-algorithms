@@ -64,9 +64,9 @@ def test_stack_empty_pop_raise_exception():
     expected = Exception
     assert actual == expected
 
-# def test_stack_empty_peek_raise_exception():
-#     stack = Stack()
-#     actual = stack.peek()
-#     expected = Exception
-#     assert actual == expected
+def test_stack_empty_peek_raise_exception():
+    with pytest.raises(Exception):
+        stack = Stack()
+        stack.peek()
+
 
