@@ -56,14 +56,16 @@ def test_stack_is_empty_True():
     stack = Stack()
     assert stack.is_empty() == True
 
-# TEST SEVEN - Calling pop or peek on empty stack raises exception
+# TEST SEVEN - Calling pop on empty stack raises exception
 def test_stack_empty_pop_raise_exception():
     stack = Stack()
-    # actual = stack.pop() and stack.peek()
     actual = stack.pop()
     expected = Exception
     assert actual == expected
 
+    # <--- AND --->
+
+# TEST SEVEN (cont'd) - Calling peek on empty stack raises exception
 def test_stack_empty_peek_raise_exception():
     with pytest.raises(Exception):
         stack = Stack()

@@ -18,15 +18,19 @@ class Queue():
 
 
     def dequeue(self):
-        temp = self.front
-        self.front = self.front.next
-        temp.next = None
-
-        return temp.value
-
+        try:
+            temp = self.front
+            self.front = temp.next
+            temp.next = None
+            return temp.value
+        except:
+            return Exception('Cannot dequeue if empty!')
 
     def peek(self):
-        return self.front.value
+        try:
+            return self.front.value
+        except:
+            raise Exception('Cannot peek an empty queue. Shame.')
 
     def is_empty(self):
         return self.front == None
