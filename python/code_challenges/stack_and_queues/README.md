@@ -59,10 +59,22 @@
 - is empty
   * Arguments: none
   * Returns: Boolean indicating whether or not the queue is empty
-  *
+
+
+### ADDITIONAL FEATURE TASKS
+- Create a new class called pseudo queue. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below). Internally, utilize 2 Stack instances to create and manage the queue.
+- Start Time: 7:30pm
+- End Time: Pending
+-
 ## Credits and Colaborations
 - Brandon Mizutani
 - Isaiah Burkes
+- Alex Payne
+
+## Resources
+- [Stacks and Queues in Python](https://pynote.readthedocs.io/en/latest/DataTypes/Stack_Queue.html)
+- [Queue using Stacks](https://www.geeksforgeeks.org/queue-using-stacks/)
+- [Implement A Queue using Two Stacks Python](https://stackoverflow.com/questions/22430803/implement-a-queue-using-two-stacks-python)
 
 
 
