@@ -1,4 +1,3 @@
-from inspect import stack
 from stack_and_queues.stack import Stack
 
 class Psuedo_queue():
