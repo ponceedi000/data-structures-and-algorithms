@@ -9,6 +9,8 @@
 4. [Code Challenge 5](code_challenges/linked_list/README.md)
 5. [Code Challenge 6](code_challenges/linked_list_insertions/README.md)
 6. [Code Challenge 7](code_challenges/linked_list/linked_list_kth/README.md)
+7. [Code Challenge 8](code_challenges/stack_and_queues/README.md)
+8. [Code Challenge 12](code_challenges/stack_and_queues/stack_and_queues/animal_shelter_README/README.md)
 
 ### Folder and Challenge Setup
 
