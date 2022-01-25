@@ -1,6 +1,6 @@
-- [PR Link Here](https://github.com/ponceedi000/data-structures-and-algorithms/pull/26)
+- [PR Link Here](https://github.com/ponceedi000/data-structures-and-algorithms/pull/27)
 
-# Animal Shelter
+# Multi-bracket Validation
 
 ## White Board
 ![](Code_Challenge_13.jpg)
