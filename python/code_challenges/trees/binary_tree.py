@@ -53,7 +53,7 @@ class BinaryTree:
         return values
 
 
-class BinarySearchTree:
+# class BinarySearchTree:
 
 # STILL WORKING ON ADD METHOD
 
