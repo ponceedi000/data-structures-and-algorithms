@@ -1,4 +1,5 @@
 - [PR Link Here](https://github.com/ponceedi000/data-structures-and-algorithms/pull/28)
+- [tree-max](https://github.com/ponceedi000/data-structures-and-algorithms/pull/29)
 
 # Binary Tree and BST Implementation
 
@@ -52,7 +53,7 @@
 - In Order: The left subtree is visited first, then the root and later the right sub-tree.
 - Pre Order: The root node is visited first, then the left subtree and finally the right subtree.
 - Post Order: First, we traverse the left subtree, then the right subtree and finally the root node.
-- Find Max: 
+- Find Max:
 
 ## Credits and Colaborations
 - Brandon Mizutani
