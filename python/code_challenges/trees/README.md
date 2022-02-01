@@ -3,7 +3,8 @@
 # Binary Tree and BST Implementation
 
 ## White Board
-![](trees/../images/code_challenge_15.png)
+![Binary Tree and Binary Search Trees](trees/../images/code_challenge_15.png)
+![FindMax](trees/../images/code_challenge_16.png)
 
 ## Challenge
 **Challenge Type: New Implementation**
@@ -51,6 +52,7 @@
 - In Order: The left subtree is visited first, then the root and later the right sub-tree.
 - Pre Order: The root node is visited first, then the left subtree and finally the right subtree.
 - Post Order: First, we traverse the left subtree, then the right subtree and finally the root node.
+- Find Max: 
 
 ## Credits and Colaborations
 - Brandon Mizutani
