@@ -63,3 +63,21 @@
 - [Python - Binary Tree](https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm)
 - [Construct a Binary Tree from Postorder and Inorder](https://www.geeksforgeeks.org/construct-a-binary-tree-from-postorder-and-inorder/)
 - [Python program to insert an element into binary search tree](https://cppsecrets.com/users/203121971151041199711011610410311710010510397109971081089764103109971051084699111109/Python-program-to-insert-an-element-into-binary-search-tree.php)
+
+***
+
+# Code Challenge 17
+[PR Link]()
+
+## White Board:
+![Code Challenge 17 Whiteboard](trees/../images/code_challenge_17.png)
+
+## Approach & Efficiency
+- Created whiteboard before diving into code:
+  * Identified problem domain, edge cases, input/output, created visualization demo, and wrote algo.
+
+## Credits and Colaborations
+- Brandon Mizutani
+- Alex Payne
+
+## Resources
