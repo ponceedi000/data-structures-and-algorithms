@@ -67,7 +67,7 @@
 ***
 
 # Code Challenge 17
-[PR Link]()
+[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/30)
 
 ## White Board:
 ![Code Challenge 17 Whiteboard](trees/../images/code_challenge_17.png)
@@ -78,6 +78,6 @@
 
 ## Credits and Colaborations
 - Brandon Mizutani
-- Alex Payne
+- Connor Boyce
 
 ## Resources
