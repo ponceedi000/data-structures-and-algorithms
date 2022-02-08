@@ -51,14 +51,8 @@ class BinaryTree:
         return values
 
 
-
 class BinarySearchTree(BinaryTree):
-
-    def __init__(self, root=None):
-        self.root = root
-
     # This methods logic was created referencing an article from cppsecrets.com
-
     def add(self, value):
         def walk(root):
             if value < root.value:
@@ -72,20 +66,15 @@ class BinarySearchTree(BinaryTree):
                 else:
                     walk(root.right)
         walk(self.root)
-
-    # Code inspired by Taylor White from class code review
     def contains(self, value):
-      if self.root.value == value:
-        return True
-      else:
-        def walk(root, value):
-          if root.value == value:
-            return True
-          elif value < root.value:
-              return walk(root.left, value)
-          elif value > root.value:
-              return walk(root.right, value)
-          else:
-            return False
-        return walk(self.root, value)
+        def walk(root):
+            if root is None:
+                return False
+            elif root.value == value:
+                return True
+            elif value < root.value:
+                return walk(root.left)
+            else:
+                return walk(root.right)
+        return walk(self.root)
 
