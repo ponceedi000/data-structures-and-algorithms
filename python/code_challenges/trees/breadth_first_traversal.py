@@ -1,24 +1,35 @@
-from trees.queue import Queue
+def breadth_first(tree):
+    queue_list = []
+    values = []
+    if tree.root:
+        queue_list.insert(0, tree.root)
+    while queue_list:
+        node = queue_list.pop()
+        values.append(node.value)
+        if node.left:
+            queue_list.insert(0, node.left)
+        if node.right:
+            queue_list.insert(0, node.right)
+    return values
 
-class Breadth_First_Traversal:
+# BELOW IS AN OLDER VERSION. DUE TO IMPORT ISSUES, THE ABOVE CODE BLOCK IS WHAT I HAD TO USE TO RUN PYTEST
 
-	def breadth_first(tree):
-		list = [ ]
-		breadth = Queue()
+# def breadth_first(tree):
+#     list = []
+#     breadth = Queue()
+#     if tree.root is None:
+#         return list
 
-		if tree.root is None:
-			return list
+#     breadth.enqueue(tree.root)
 
-		breadth.enqueue(tree.root)
+#     while not breadth.is_empty():
+#         dequeue = breadth.dequeue()
+#         list.append(dequeue.value)
 
-		while not breadth.is_empty():
-			front = breadth.dequeue()
-			list.append(front.value)
+#         if dequeue.left:
+#             breadth.enqueue(dequeue.left)
 
-			if front.left:
-				breadth.enqueue(front.left)
+#         if dequeue.right:
+#             breadth.enqueue(dequeue.right)
 
-			if front.right:
-				breadth.enqueue(front.right)
-
-		return list
+#         return list
