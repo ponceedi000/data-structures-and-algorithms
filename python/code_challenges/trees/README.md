@@ -80,4 +80,26 @@
 - Brandon Mizutani
 - Connor Boyce
 
+***
+
+
+# Code Challenge 18
+[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/30)
+
+## White Board:
+![Code Challenge 18 Whiteboard](trees/../images/code_challenge_18.png)
+
+## Approach & Efficiency
+- Created whiteboard before diving into code:
+  * Identified problem domain, edge cases, input/output, created visualization demo, and wrote algo.
+
+## Credits and Colaborations
+- Brandon Mizutani
+- Connor Boyce
+- Alexa Payne
+- Taylor White
+
 ## Resources
+[Construct the full k-ary tree from its preorder traversal](https://www.geeksforgeeks.org/construct-full-k-ary-tree-preorder-traversal/)
+[Trees](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html)
+
