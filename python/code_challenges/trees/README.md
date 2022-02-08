@@ -84,7 +84,7 @@
 
 
 # Code Challenge 18
-[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/30)
+[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/31)
 
 ## White Board:
 ![Code Challenge 18 Whiteboard](trees/../images/code_challenge_18.png)
