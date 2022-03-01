@@ -1,9 +1,11 @@
 - [PR Link Here](https://github.com/ponceedi000/data-structures-and-algorithms/pull/28)
+- [tree-max](https://github.com/ponceedi000/data-structures-and-algorithms/pull/29)
 
 # Binary Tree and BST Implementation
 
 ## White Board
-![](trees/../images/code_challenge_15.png)
+![Binary Tree and Binary Search Trees](trees/../images/code_challenge_15.png)
+![FindMax](trees/../images/code_challenge_16.png)
 
 ## Challenge
 **Challenge Type: New Implementation**
@@ -51,6 +53,7 @@
 - In Order: The left subtree is visited first, then the root and later the right sub-tree.
 - Pre Order: The root node is visited first, then the left subtree and finally the right subtree.
 - Post Order: First, we traverse the left subtree, then the right subtree and finally the root node.
+- Find Max:
 
 ## Credits and Colaborations
 - Brandon Mizutani
@@ -60,3 +63,43 @@
 - [Python - Binary Tree](https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm)
 - [Construct a Binary Tree from Postorder and Inorder](https://www.geeksforgeeks.org/construct-a-binary-tree-from-postorder-and-inorder/)
 - [Python program to insert an element into binary search tree](https://cppsecrets.com/users/203121971151041199711011610410311710010510397109971081089764103109971051084699111109/Python-program-to-insert-an-element-into-binary-search-tree.php)
+
+***
+
+# Code Challenge 17
+[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/30)
+
+## White Board:
+![Code Challenge 17 Whiteboard](trees/../images/code_challenge_17.png)
+
+## Approach & Efficiency
+- Created whiteboard before diving into code:
+  * Identified problem domain, edge cases, input/output, created visualization demo, and wrote algo.
+
+## Credits and Colaborations
+- Brandon Mizutani
+- Connor Boyce
+
+***
+
+
+# Code Challenge 18
+[PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/31)
+
+## White Board:
+![Code Challenge 18 Whiteboard](trees/../images/code_challenge_18.png)
+
+## Approach & Efficiency
+- Created whiteboard before diving into code:
+  * Identified problem domain, edge cases, input/output, created visualization demo, and wrote algo.
+
+## Credits and Colaborations
+- Brandon Mizutani
+- Connor Boyce
+- Alexa Payne
+- Taylor White
+
+## Resources
+[Construct the full k-ary tree from its preorder traversal](https://www.geeksforgeeks.org/construct-full-k-ary-tree-preorder-traversal/)
+[Trees](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html)
+

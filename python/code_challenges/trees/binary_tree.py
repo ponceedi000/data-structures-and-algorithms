@@ -4,11 +4,9 @@ class BinaryTree:
     def __init__(self, root=None):
         self.root = root
 
-
 # AFTER WRITING LOGIC FOR PRE ORDER METHOD, I CAME TO REALIZATION THAT THE OTHER METHODS
 # WOULD BE WRITTEN VERY SIMILARY
 # I HAD TO SLIGHT MODIFY LOGIC BASED OF THE METHODS TRAVERSAL FLOW
-
 
     def pre_order(self):
 # root > left > right
@@ -53,15 +51,30 @@ class BinaryTree:
         return values
 
 
-# class BinarySearchTree:
+class BinarySearchTree(BinaryTree):
+    # This methods logic was created referencing an article from cppsecrets.com
+    def add(self, value):
+        def walk(root):
+            if value < root.value:
+                if root.left is None:
+                    root.left = Node(value)
+                else:
+                    walk(root.left)
+            else:
+                if root.right is None:
+                    root.right = Node(value)
+                else:
+                    walk(root.right)
+        walk(self.root)
+    def contains(self, value):
+        def walk(root):
+            if root is None:
+                return False
+            elif root.value == value:
+                return True
+            elif value < root.value:
+                return walk(root.left)
+            else:
+                return walk(root.right)
+        return walk(self.root)
 
-# STILL WORKING ON ADD METHOD
-
-    # def add(self, value):
-    #     def walk(node):
-    #         if value < node.value:
-    #             if node.left == None:
-    #                 node.left = Node(value)
-    #             else:
-    #                 walk(node.left)
-    #     walk(self.root)

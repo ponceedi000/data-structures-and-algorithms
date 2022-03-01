@@ -1,4 +1,5 @@
 from code_challenges.trees.binary_tree import BinaryTree
+from code_challenges.trees.binary_tree import BinarySearchTree
 from code_challenges.trees.node import Node
 
 def test_new_node():
@@ -134,3 +135,28 @@ def test_bt_postorder_not_working():
     assert order_list != ['apple', 'pear', 'orange']
     assert order_list != ['apple', 'orange', 'pear']
 
+def test_bst_contains_true():
+    root = Node('orange')
+    bt = BinarySearchTree(root)
+    bt.add('apple')
+    bt.add('pear')
+    bt.add('banana')
+    actual = bt.contains('pear')
+    expected = True
+    assert actual == expected
+
+def test_bst_contains_false():
+    root = Node('orange')
+    bt = BinarySearchTree(root)
+    bt.add('apple')
+    bt.add('pear')
+    bt.add('orange')
+    actual = bt.contains('strawberry')
+    expected = False
+    assert actual == expected
+
+def test_bst_empty_false():
+    bt = BinarySearchTree()
+    actual = bt.contains('orange')
+    expected = False
+    assert actual == expected
