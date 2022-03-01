@@ -1,5 +1,6 @@
 # Insertion Sort Blog by Eddie Ponce
 
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/32)
 ## What is Insertion Sort?
 > "Selection Sort is a sorting algorithm that traverses the array multiple times as it slowly builds out the sorting sequence. The traversal keeps track of the minimum value and places it in the front of the array which should be incrementally sorted." - GeeksforGeeks
 
