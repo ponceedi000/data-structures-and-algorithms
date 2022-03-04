@@ -102,7 +102,7 @@ def merge(left, right, list):
 
 
 ## Working Tests
-- [](img/test.JPG)
+- ![](img/test.JPG)
 ## Efficiency | BigO
 - Time: O(nLogn)
 
