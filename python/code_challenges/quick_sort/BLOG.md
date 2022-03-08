@@ -1,10 +1,8 @@
 # Quick Sort Blog by Eddie Ponce
 
-- [PR Link]()
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/33)
 ## What is Merge Sort?
 
-
-Example: ![ sort graphic]()
 
 ## Algorithm
 1. Pick first element as pivot
