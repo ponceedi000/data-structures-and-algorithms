@@ -1,6 +1,6 @@
 # Quick Sort Blog by Eddie Ponce
 
-- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/33)
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/34)
 ## What is Merge Sort?
 
 
