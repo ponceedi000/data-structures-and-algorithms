@@ -1,5 +1,5 @@
 # Hashtables
-- [PR Link]()
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/36)
 
 ![whiteboard](img/hashmap.png)
 
