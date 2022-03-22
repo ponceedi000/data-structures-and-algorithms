@@ -1,5 +1,5 @@
 # Hashmap LEFT JOIN
-- [PR Link]()
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/38)
 
 ## Challenge
 - Write a function that LEFT JOINs two hashmaps into a single data structure.
