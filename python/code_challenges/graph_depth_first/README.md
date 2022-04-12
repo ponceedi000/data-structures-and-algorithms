@@ -1,5 +1,5 @@
 # Depth First Traversal
-- [PR Link]()
+- [PR Link](https://github.com/ponceedi000/data-structures-and-algorithms/pull/42)
 
 > "Depth First Search (DFS) algorithm traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration." - [tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm)
 
