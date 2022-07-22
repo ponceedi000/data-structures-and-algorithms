@@ -41,3 +41,34 @@
 - get nodes
 - get neighbors
 - size
+
+***
+
+# Breadth first search: Graph
+
+## Challenge: Class 36
+**Implement a breadth-first traversal on a graph**
+
+## Links
+
+- [Breadth First Method](graph.py)
+- [Graph Tests](tests/../../../tests/test_graph_breadth_first.py)
+- [Pull Request](https://github.com/ponceedi000/data-structures-and-algorithms/pull/40)
+
+
+### Whiteboard Process
+
+![breadth first graph whiteboard](img/breadthfirst_graph.png)
+
+### Tasks
+
+- Write the following method for the Graph class:
+  * breadth first
+  * Arguments: Node
+  * Return: A collection of nodes in the order they were visited.
+  * Display the collection
+
+## Solution
+
+[Click to view source code](graph.py)
+
